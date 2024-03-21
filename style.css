@@ -1,12 +1,24 @@
-.calculator-container{
+.main-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+}
+
+.calculator-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     border: 10px solid black;
-    width: 500px;
+    width: 400px;
     height: 400px;
 }
 
 .calculator-display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     height: inherit;
     background-color: gray;
 }
